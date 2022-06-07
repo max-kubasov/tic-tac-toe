@@ -16,14 +16,14 @@
 
 package maxjava.tictactoe;
 
-public final class Launcher {
+public class WinnerVerifier {
 
-    public static void main(String[] args) {
-        final Game game = new Game(
-                new DataPrinter(), new ComputerMove(), new UserMove(), new WinnerVerifier(), new DrawVerifier()
-        );
+    public boolean isUserWin(GameTable gameTable) {
+        return false;
 
-        game.play();
     }
 
+    public boolean isComputerWin(GameTable gameTable) {
+        return false;
+    }
 }

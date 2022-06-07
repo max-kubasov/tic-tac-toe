@@ -16,14 +16,9 @@
 
 package maxjava.tictactoe;
 
-public final class Launcher {
+public class UserMove {
 
-    public static void main(String[] args) {
-        final Game game = new Game(
-                new DataPrinter(), new ComputerMove(), new UserMove(), new WinnerVerifier(), new DrawVerifier()
-        );
+    public void make(GameTable gameTable) {
 
-        game.play();
     }
-
 }

@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-package maxjava.tictactoe;
+package maxjava.tictactoe.model;
 
-public class ComputerMove {
-
-    public void make(GameTable gameTable) {
-    }
+public class GameTable {
 }

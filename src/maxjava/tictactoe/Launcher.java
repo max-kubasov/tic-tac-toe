@@ -16,6 +16,8 @@
 
 package maxjava.tictactoe;
 
+import maxjava.tictactoe.component.*;
+
 public final class Launcher {
 
     public static void main(String[] args) {

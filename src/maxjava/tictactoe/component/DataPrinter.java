@@ -14,7 +14,17 @@
  * limitations under the License.
  */
 
-package maxjava.tictactoe;
+package maxjava.tictactoe.component;
 
-public class GameTable {
+import maxjava.tictactoe.model.GameTable;
+
+public class DataPrinter {
+
+    public void printMapingTable() {
+
+    }
+
+    public void printGameTable(GameTable gameTable) {
+
+    }
 }

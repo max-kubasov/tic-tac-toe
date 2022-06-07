@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package maxjava.tictactoe;
+package maxjava.tictactoe.component;
+
+import maxjava.tictactoe.model.GameTable;
 
 public class UserMove {
 

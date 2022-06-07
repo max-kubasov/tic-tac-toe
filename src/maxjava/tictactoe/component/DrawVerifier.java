@@ -14,15 +14,13 @@
  * limitations under the License.
  */
 
-package maxjava.tictactoe;
+package maxjava.tictactoe.component;
 
-public class DataPrinter {
+import maxjava.tictactoe.model.GameTable;
 
-    public void printMapingTable() {
+public class DrawVerifier {
 
-    }
-
-    public void printGameTable(GameTable gameTable) {
-
+    public boolean isDraw(GameTable gameTable) {
+        return false;
     }
 }

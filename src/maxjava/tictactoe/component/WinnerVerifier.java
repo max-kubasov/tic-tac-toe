@@ -14,11 +14,18 @@
  * limitations under the License.
  */
 
-package maxjava.tictactoe;
+package maxjava.tictactoe.component;
 
-public class DrawVerifier {
+import maxjava.tictactoe.model.GameTable;
 
-    public boolean isDraw(GameTable gameTable) {
+public class WinnerVerifier {
+
+    public boolean isUserWin(GameTable gameTable) {
+        return false;
+
+    }
+
+    public boolean isComputerWin(GameTable gameTable) {
         return false;
     }
 }

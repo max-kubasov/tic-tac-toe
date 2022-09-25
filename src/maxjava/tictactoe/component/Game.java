@@ -47,7 +47,7 @@ public class Game {
 
     public void play() {
         System.out.println("Use the following mapping table to specify a cell using numbers from 1 to 9:");
-        dataPrinter.printMapingTable();
+        dataPrinter.printMappingTable();
         final GameTable gameTable = new GameTable();
 
         if (new Random().nextBoolean()) {

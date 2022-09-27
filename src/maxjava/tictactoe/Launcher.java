@@ -17,12 +17,13 @@
 package maxjava.tictactoe;
 
 import maxjava.tictactoe.component.*;
+import maxjava.tictactoe.keypad.DesktopNumericKeypadCellNumberConverter;
 
 public final class Launcher {
 
     public static void main(String[] args) {
 
-        final CellNumberConverter cellNumberConverter = new CellNumberConverter();
+        final CellNumberConverter cellNumberConverter = new DesktopNumericKeypadCellNumberConverter();
         final Game game = new Game(
                 new DataPrinter(cellNumberConverter),
                 new ComputerMove(),
